@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatação de textos</title>
+</head>
+<body>
+
+    <h1>Principais formatações</h1>
+    <h2>negrito / destaque</h2>
+    <p>
+        usando a tag b <b>dessa forma</b> é uma mudança apenas visual (nao semantica)
+        para fazer uma mudança <strong>dessa forma</strong> que nao seja apenas visual use a tag strong (semantica)
+    </p>
+
+    <h2>Italico / Enfase</h2>
+    <p>
+        usando a tag i <i>dessa forma</i> é uma mudança apenas visual (nao semantica)
+        para fazer uma mudança <em>dessa forma</em> que nao seja apenas visual use a tag em (semantica)
+    </p>
+    <h2>Texto marcado com a tag mark</h2>
+    <p>posso marcar um texto <mark>assim</mark></p>
+
+    <h2>texto deletado</h2>
+    <p>podemos deixar <del>um texto como excluido</del> ultilizando a tag del e ai saberão que deve ser lido mas nao considerado</p>
+
+    <h2>texto inserido</h2>
+    <p> podemos marcar <ins>um texto como inserido</ins> usando a tag ins, tambem podemos ultilizar a tag u mas seria nao semantico</p>
+
+    <h2>texto sobre escrito</h2>
+    <p>como por exemplo x<sup>20</sup>+3</p>
+
+    <h2>texto subescrito</h2>
+    <p>como por exemplo H<sub>2</sub>O</p>
+
+    <h1>citações e outras formatalções</h1>
+    <h2>codigo fonte / pre formatação</h2>
+    <p>O comando &lt;code&gt; faz com que a fonte fique monoespaçada facilitando a leitura de codigos, porem ela nao faz a formatação de um codigo, como quebras de linha e tudo mais, exemplos: <br> o trecho a seguir esta dentro da tag code <code>document.getElementByID('teste')</code> <br> o comando a baixo tambem esta dentro da tag code, pore, por mais que no arquivo html esteja formatado, o simples fato de colocar na tag code, nao fara com que fique com a identação correta, exemplo: <br>
+    <CODE>
+        num = int(input('digite um numero'))
+        if num % 2 ==0:
+            print(f'o numero {num} e PAR')
+        else:
+            print(f'o numero {num} é IMPAR)
+    </CODE></p>
+    <p> Existe uma tag chamada &lt;pre&gt;, tudo o que estiver dentro dela sera considerado espaços tabulações e etc,entao a junção dela com a tag code, faz com que a exibição fique com uma aparencia melhor ja que o codigo estara identado da mesma forma que identou em seu arquivo HTML por exemplo:
+    <pre>
+        <CODE>
+    num = int(input('digite um numero'))
+    if num % 2 ==0:
+        print(f'o numero {num} e PAR')
+    else:
+        print(f'o numero {num} é IMPAR)
+        </CODE>
+    </pre>
+    </p>
+    <h2>citações</h2>
+    <p> podemos fazer uma citação com a tag &lt;q&gt; por exemplo: como diria o pai de um amigo meu: <q>computador é apenas um burro muito rapido</q> <br>
+     alem disso possuimos o &lt;blockquote&gt; que serve para uma referencia com mais linhas como por exemplo: segundo eslend elanogare na sua plataforma reservatorio de dopamina: </p>
+    <blockquote cite="https://reservatoriodedopamina.com.br/?srsltid=AfmBOoqVvMGtggV73QuBzCaQhNGwuWiup7phlzN0i9DNhGm1jUqwrSXF">A dopamina nao é o hormonio do prazer ou da felicidade, ela é a responsavel pela motivaçao de agir, pela motivaçao de ir atras de uma recompensa proxima, Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit placeat ab commodi culpa aperiam..</blockquote>
+    <p>no blockquote, é possivel usar um parametro chamado cite, para vincularmos um link a citação, falicitanto assim a ação dos mecanismos de busca</p>
+    <h2>Abreviações</h2>
+    <p>para conseguirmos identificar as abreviaçoes da nossa pagina podemos usar a tag &lt;abbr&gt; para que quando passarmos o mouse em cima de uma abreviaçao, apareça o significado dela como por exemplo <abbr title="Hypertext markup language">HTML</abbr></p>
+
+
+
+</body>
+</html>
