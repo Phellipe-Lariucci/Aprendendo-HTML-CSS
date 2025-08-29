@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+body{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: brown;
+}
+
+h1#principal{
+    text-align: center;    
+}
+.basico{
+    font-weight: 200;
+}
+.intermediario{
+    font-style: italic;
+    font-weight: 200;
+}
+.avançado{
+    font-weight: 900;
+}
