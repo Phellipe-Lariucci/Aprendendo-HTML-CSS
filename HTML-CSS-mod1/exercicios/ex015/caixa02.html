@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: dimgray;
+            
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.726);
+            border-radius: 5px;
+        }
+
+        nav{
+            background-color: bisque;
+        }
+        nav >a {
+            text-decoration: none;
+            color: black;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        article{
+            background-color: lightgrey;
+            border-radius: 5px;
+        }
+        article > aside{
+            background-color: rgb(153, 153, 153);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repudiandae natus doloribus enim hic possimus, consectetur laudantium ut error, cum quos eveniet quibusdam a beatae. Rem nihil ipsa ut eaque.</p>
+                <aside>
+                    <p>Artigo de lorem silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Aprendendo HTML E CSS
+    </footer>
+</body>
+</html>
