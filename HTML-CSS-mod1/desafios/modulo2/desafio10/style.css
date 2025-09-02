@@ -1,1 +1,129 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background-image: linear-gradient(to top, #135733 ,#84E1AD);
+    height: 200px; 
+}
+nav > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 10px;
+    border-radius: 15px;
+}
+nav > a:hover{
+    background-color: #84e1ac;
+}
+body{
+    background-color: #84E1AD;
+    font:normal 1em 'Arial', 'Helvetica', sans-serif;
+    color: black;  
+    margin: 0px auto 0px auto;
+}
+h1{
+    font: normal 3em 'Arial','Helvetica', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+main{
+    background-color: white;
+    width: 800px;
+    border-radius: 0px 0px 15px 15px;
+    margin: auto;
+}
+main > h2{
+    font-family: 'idroid', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #135733;
+    margin-top: 0px;
+    text-indent: 20px;
+} 
+
+p{
+    margin: 20px;
+    padding-bottom: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: #135733;
+    font-weight: bold;
+}
+a.corpo::after{
+    content: ' 🔗';
+}
+header > h2{
+    font: normal 20px 'Arial','Helvetica', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    margin: 40px auto 30px auto;
+}
+ul{
+    list-style: none;
+}
+li::before{
+    content:' 🗸';
+}
+div#video{
+    background-color: #135733;  
+    text-align: center;
+}
+img{
+    margin: 0 auto 0 auto;
+}
+div.bugdroid{
+    text-align: center;
+}
+
+h3{
+    font-family: 'idroid', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #135733;
+    background-image: linear-gradient(to right,#84e1ac,rgba(255, 255, 255, 0));
+    text-indent: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+div#extra{
+    background-color: #C5EBD6;
+    margin: 20px;
+    border-radius: 20px;
+    padding-bottom: 1px;
+}
+div#extra  h3{
+    background-color: #2FA866;
+    background-image: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 20px 20px 0px 0px;
+}
+strong.corpo{
+    color: #135733;
+    font-weight: 800;
+}
+footer>p{
+    text-align: center;
+    color: white;
+    background-color: #135733;
+    margin: 0px;
+    padding: 5px;
+}
+footer>strong{
+    font-weight: 800;
+    color: white;
+}
