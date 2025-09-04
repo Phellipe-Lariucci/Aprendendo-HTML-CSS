@@ -89,10 +89,9 @@ strong.corpo{
     font-weight: 800;
 }
 ul{
-    list-style: none;
-}
-li::before{
-    content:' 🗸';
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
 }
 div#video{
     background-color: #135733;  
